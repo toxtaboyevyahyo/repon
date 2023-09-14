@@ -1,0 +1,11 @@
+@mixin d-flex ($justfly-content:space-between,$aligin-items:center,){
+    display: flex;
+    justify-content: $justfly-content;
+    align-items: $aligin-items;
+}
+@mixin container ($maxwidth:1140px){
+    max-width: $maxwidth;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
